@@ -1,4 +1,4 @@
-<nav class="w-full bg-[#dfdfdf] px-8 py-5 flex justify-between items-center shadow-sm">
+<nav class="w-full  px-8 py-5 flex justify-between items-center shadow-sm">
     
     <a href="index.php" class="text-2xl font-black tracking-wide">
         <span class="text-black">STAY</span><span class="text-[#4f46e5]">NET</span>
