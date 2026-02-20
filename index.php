@@ -1,3 +1,6 @@
+<?php 
+    include 'main.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +11,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <?php 
+        include '/pages/dashboard.php';
+    ?>
 </body>
 </html>
