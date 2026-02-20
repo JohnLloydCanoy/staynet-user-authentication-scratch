@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        echo "This is the config file.";    
     ?>
 </body>
 </html>

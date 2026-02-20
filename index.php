@@ -1,6 +1,4 @@
-<?php 
-    include 'main.php';
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +10,7 @@
 </head>
 <body>
     <?php 
-        include '/pages/dashboard.php';
+        include ('pages/dashboard.php');
     ?>
 </body>
 </html>
