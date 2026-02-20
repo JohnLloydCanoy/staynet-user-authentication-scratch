@@ -15,7 +15,20 @@
     <div class="flex-1 mx-[5px] mb-[5px] px-4 py-24 bg-white rounded-lg shadow-md flex flex-col items-center justify-center">
         <h1 class="text-3xl font-bold text-center">Welcome to your Dashboard</h1>
         <p class="text-center mt-4 text-gray-600">Here you can manage your bookings, reservations, and more.</p>
+    <!-- Test Button -->
+    <?php 
+        // Create a Primary Button
+        $btn_text = "Book Now";
+        $btn_link = "#book.php";
+        include 'components/buttons/primary_button.php'; 
+
+        // Create a Secondary Button right next to it
+        $btn_text = "Become a Host";
+        $btn_link = "#host.php";
+        include 'components/buttons/secondary_button.php'; 
+    ?>
         <?php include(__DIR__ . '/../components/footer.php'); ?>
     </div>
+        
 </body>
 </html>
