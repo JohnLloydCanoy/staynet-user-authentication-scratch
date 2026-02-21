@@ -7,7 +7,7 @@
     <div class="flex items-center space-x-10 text-black font-bold text-sm tracking-wider">
         <a href="#" class="uppercase hover:text-[#4f46e5] transition-colors duration-200">Book</a>
         <a href="#" class="uppercase hover:text-[#4f46e5] transition-colors duration-200">Reservation</a>
-        <a href="#" class="uppercase hover:text-[#4f46e5] transition-colors duration-200">Book</a>
+        <a href="#" class="uppercase hover:text-[#4f46e5] transition-colors duration-200">Log In</a>
         <a href="sign_in.php" class="ml-4 hover:text-[#4f46e5] transition-colors duration-200">
             Become a Host
         </a>
