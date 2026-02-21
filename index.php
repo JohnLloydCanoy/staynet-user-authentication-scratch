@@ -1,4 +1,5 @@
-<?php require_once 'config/config.php'; ?>
+<?php //Adding successfully loaded autoload.php to index.php and config.php to establish database connection
+require_once 'config/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
