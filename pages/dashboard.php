@@ -12,7 +12,7 @@
     <?php include(__DIR__ . '/../components/navigation.php'); // __DIR__ provides the absolute filesystem path of the directory containing the current file.
     include(__DIR__ . '/../components/searchbar.php');
     ?>
-    <div class="flex-1 mx-[5px] mb-[5px] px-4 py-4 bg-white rounded-lg shadow-md flex flex-col items-center justify-center">
+    <div class="flex-1 mx-[5px] mb-[5px] px-4 py-7 bg-white rounded-lg shadow-md flex flex-col items-center justify-center">
         <h1 class="text-3xl font-bold text-center">Welcome to your Dashboard</h1>
         <p class="text-center mt-4 text-gray-600">Here you can manage your bookings, reservations, and more.</p>
     <!-- Test Button -->
