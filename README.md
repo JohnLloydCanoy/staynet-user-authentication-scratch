@@ -18,3 +18,16 @@
 - **Database:** MySQL
 - **Dependency Management:** Composer
 - **Libraries:** `vlucas/phpdotenv`
+
+## 📁 Project Structure
+```text
+staynet-user-authentication-scratch/
+├── assets/             # Images and local styles
+├── components/         # Reusable UI components (Header, Footer, Nav)
+│   └── buttons/        # Standardized button components
+├── config/             # Database connection and environment setup
+├── database/           # SQL schemas and blueprints
+├── vendor/             # External libraries (managed by Composer)
+├── .env                # Environment secrets (Git-ignored)
+├── .gitignore          # Rules for hiding sensitive files
+└── index.php           # Main landing page
