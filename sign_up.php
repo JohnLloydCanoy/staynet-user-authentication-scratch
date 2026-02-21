@@ -85,7 +85,7 @@
                 ?>
         </form>
 
-        <p class="mt-8 text-center text-sm text-gray-600">
+        <p class="mt-5 text-center text-sm text-gray-600">
             Already have an account? 
             <a href="login.php" class="font-bold text-[#4f46e5] hover:text-[#4338ca] transition-colors duration-200">Log in</a>
         </p>
