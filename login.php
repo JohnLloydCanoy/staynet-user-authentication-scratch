@@ -63,7 +63,7 @@
 
         <p class="mt-8 text-center text-sm text-gray-600">
             Don't have an account? 
-            <a href="register.php" class="font-bold text-[#4f46e5] hover:text-[#4338ca] transition-colors duration-200">Sign up</a>
+            <a href="sign_up.php" class="font-bold text-[#4f46e5] hover:text-[#4338ca] transition-colors duration-200">Sign up</a>
         </p>
 
     </div>
