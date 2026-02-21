@@ -11,3 +11,10 @@
 - **Secure Authentication:** Standardized Sign In and Sign Up dialogs with role-based selection (Guest/Host).
 - **Scalable Database:** Relational MySQL schema designed to handle users, properties, and bookings.
 - **Environment Security:** Utilizes `vlucas/phpdotenv` to keep database credentials safe and private.
+
+## 🛠️ Tech Stack
+- **Frontend:** HTML5, Tailwind CSS
+- **Backend:** PHP 8.2 (Vanilla/Scratch)
+- **Database:** MySQL
+- **Dependency Management:** Composer
+- **Libraries:** `vlucas/phpdotenv`
