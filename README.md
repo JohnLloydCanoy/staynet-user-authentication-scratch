@@ -5,3 +5,9 @@
 <h2>Main Dashboard</h2>
 <img src="readme_assets/Screenshot 2026-02-21 172210.png" alt="Screenshot 2026-02-21 172210" style="width:100%">
 
+## 🚀 Features & Progress
+- **Modern UI/UX:** Styled with Tailwind CSS for a premium, clean look.
+- **Dynamic Property Listings:** Reusable PHP components for property cards and navigation.
+- **Secure Authentication:** Standardized Sign In and Sign Up dialogs with role-based selection (Guest/Host).
+- **Scalable Database:** Relational MySQL schema designed to handle users, properties, and bookings.
+- **Environment Security:** Utilizes `vlucas/phpdotenv` to keep database credentials safe and private.
