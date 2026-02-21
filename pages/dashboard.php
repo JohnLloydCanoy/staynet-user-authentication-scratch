@@ -16,7 +16,7 @@
         <h1 class="text-3xl font-bold text-center">Welcome to your Dashboard</h1>
         <p class="text-center mt-4 text-gray-600">Here you can manage your bookings, reservations, and more.</p>
     <!-- Test Button -->
-    <h2 class="text-2xl font-bold mb-6">Recommended for you</h2>
+    <h2 class="text-2xl font-bold mb-6 ">Recommended for you</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
         <?php 
         // Sample data for properties - in a real application, this would come from a database
