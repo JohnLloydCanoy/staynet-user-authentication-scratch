@@ -1,5 +1,4 @@
 <a href="<?php echo $link ?? '#'; ?>" class="flex flex-col group cursor-pointer">
-    
     <div class="relative w-full aspect-square overflow-hidden rounded-[20px] mb-3">
         <img 
             src="<?php echo $image_url ?? 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'; ?>" 
@@ -13,7 +12,6 @@
             </svg>
         </button>
     </div>
-
     <div class="flex flex-col">
         <h3 class="text-[19px] font-semibold text-gray-900 truncate">
             <?php echo $title ?? 'Apartment on CDO'; ?>
@@ -30,5 +28,4 @@
             <span class="font-medium text-[15px]"><?php echo $rating ?? '4.3'; ?></span>
         </div>
     </div>
-
 </a>
