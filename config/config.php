@@ -9,4 +9,6 @@
     $user = $_ENV['DB_USER'];
     $pass = $_ENV['DB_PASS'];
     $charset = 'utf8mb4';
+    // Data Source Name (DSN) for PDO
+    $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 ?>
