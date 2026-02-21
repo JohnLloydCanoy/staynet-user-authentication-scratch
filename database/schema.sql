@@ -1,0 +1,8 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL, -- Never store plain text passwords!
+    role ENUM('guest', 'host', 'admin') DEFAULT 'guest',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
