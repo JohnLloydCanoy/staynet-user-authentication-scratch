@@ -42,14 +42,14 @@
                     
                     <label class="flex-1 cursor-pointer">
                         <input type="radio" name="role" value="guest" class="peer sr-only" checked>
-                        <div class="text-center px-4 py-3 text-sm font-medium text-gray-600 bg-gray-50 border border-gray-200 rounded-md transition-all duration-200 peer-checked:bg-[#4f46e5]/10 peer-checked:text-[#4f46e5] peer-checked:border-[#4f46e5] hover:bg-gray-100">
+                        <div class="text-center px-4 py-3 text-xs font-medium text-gray-600 bg-gray-50 border border-gray-200 rounded-md transition-all duration-200 peer-checked:bg-[#4f46e5]/10 peer-checked:text-[#4f46e5] peer-checked:border-[#4f46e5] hover:bg-gray-100">
                             Guest (Looking for a room)
                         </div>
                     </label>
 
                     <label class="flex-1 cursor-pointer">
                         <input type="radio" name="role" value="host" class="peer sr-only">
-                        <div class="text-center px-4 py-3 text-sm font-medium text-gray-600 bg-gray-50 border border-gray-200 rounded-md transition-all duration-200 peer-checked:bg-[#4f46e5]/10 peer-checked:text-[#4f46e5] peer-checked:border-[#4f46e5] hover:bg-gray-100">
+                        <div class="text-center px-4 py-3 text-xs font-medium text-gray-600 bg-gray-50 border border-gray-200 rounded-md transition-all duration-200 peer-checked:bg-[#4f46e5]/10 peer-checked:text-[#4f46e5] peer-checked:border-[#4f46e5] hover:bg-gray-100">
                             Host (Listing a property)
                         </div>
                     </label>
