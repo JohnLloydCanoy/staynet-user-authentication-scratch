@@ -63,7 +63,9 @@
         }
         ?>
     </div>
-        <?php include(__DIR__ . '/../components/footer.php'); ?>
+        <div class="mt-16 ">
+            <?php include(__DIR__ . '/../components/footer.php'); ?>
+        </div>
     </div>
         
 </body>
