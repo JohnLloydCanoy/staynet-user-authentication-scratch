@@ -1,3 +1,5 @@
+CREATE DATABASE staynet_db;
+
 -- Users Table
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
