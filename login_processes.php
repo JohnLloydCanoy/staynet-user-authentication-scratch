@@ -12,4 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute([':email' => $email]);
         $user = $stmt->fetch();
         if ($user && password_verify($password, $user['password_hash'])) {
+            $_SESSION['user_id']   = $user['id'];
+            $_SESSION['full_name'] = $user['full_name'];
+            $_SESSION['role']      = $user['role'];
+            $_SESSION['logged_in'] = true;
 ?>
