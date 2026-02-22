@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['role']      = $role;
         $_SESSION['logged_in'] = true;
         if ($role === 'host') {
-            header("Location: host_dashboard.php");
+            header("Location: pages/host_dashboard.php");
             exit(); 
         } else {
             header("Location: index.php"); 
