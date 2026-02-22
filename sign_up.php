@@ -99,7 +99,7 @@
                     I agree to the <a href="#" class="text-[#4f46e5] hover:underline">Terms of Service</a> and <a href="#" class="text-[#4f46e5] hover:underline">Privacy Policy</a>.
                 </label>
             </div>
-            <form action="pages/host_dashboard.php" method="POST">
+            <form action="config/register_process.php" method="POST">
                 <?php 
                     $btn_text = "Create Account";
                     include 'components/buttons/submit_button.php';
