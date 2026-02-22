@@ -30,7 +30,7 @@
                 <input 
                     type="text" 
                     id="name" 
-                    name="name" 
+                    name="full_name" 
                     required 
                     placeholder="e.g. Juan Dela Cruz" 
                     class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-md focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#4f46e5]/50 focus:border-[#4f46e5] transition-colors duration-200 text-sm"
