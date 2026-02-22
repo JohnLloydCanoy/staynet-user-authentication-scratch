@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +40,11 @@
             <div class="pt-2">
                 <label class="block text-sm font-bold text-gray-900 mb-3">I want to sign up as a:</label>
                 <div class="flex space-x-4">
+                    <?php
+                    // conditional Section for role selection (Guest or Host), If the user selects Host, they will be redirected to the host dashboard after registration, if Guest, they will be redirected to the guest dashboard after registration. 
+                    $role = $_POST['role'];
                     
+                    ?>
                     <label class="flex-1 cursor-pointer">
                         <input type="radio" name="role" value="guest" class="peer sr-only" checked>
                         <div class="text-center px-4 py-3 text-xs font-medium text-gray-600 bg-gray-50 border border-gray-200 rounded-md transition-all duration-200 peer-checked:bg-[#4f46e5]/10 peer-checked:text-[#4f46e5] peer-checked:border-[#4f46e5] hover:bg-gray-100">
@@ -99,12 +104,12 @@
                     I agree to the <a href="#" class="text-[#4f46e5] hover:underline">Terms of Service</a> and <a href="#" class="text-[#4f46e5] hover:underline">Privacy Policy</a>.
                 </label>
             </div>
-
+            <form action="pages/host_dashboard.php" method="POST">
                 <?php 
                     $btn_text = "Create Account";
                     include 'components/buttons/submit_button.php';
                 ?>
-        </form>
+            </form>
 
         <p class="mt-5 text-center text-sm text-gray-600">
             Already have an account? 
