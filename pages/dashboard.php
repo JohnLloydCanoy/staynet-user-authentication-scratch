@@ -63,6 +63,53 @@
         }
         ?>
     </div>
+    <h2 class="text-2xl font-bold mb-6 ">Near You</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <?php 
+        // Sample data for properties - in a real application, this would come from a database
+        $properties = [
+            [
+                "title" => "Cozy Studio in Divisoria",
+                "price" => 2500,
+                "rating" => "4.8"
+            ],
+            [
+                "title" => "Modern Apartment Uptown",
+                "price" => 4500,
+                "rating" => "4.9"
+            ],
+            [
+                "title" => "Student Dorm near USTP",
+                "price" => 1500,
+                "rating" => "4.5"
+            ],
+            [
+                "title" => null,
+                "price" => null,
+                "rating" => null
+            ],
+            [
+                "title" => "Shared Room in Lapasan",
+                "price" => 800,
+                "rating" => "4.1"
+            ]
+            ,
+            [
+                "title" => "Shared Room in Lapasan",
+                "price" => 800,
+                "rating" => "4.1"
+            ]
+        ];
+        // Loop through properties and include the listing card component for each from the sample data or database
+        foreach ($properties as $property) {
+            $title = $property['title'];
+            $price = $property['price'];
+            $rating = $property['rating'];
+
+            include 'components/listing_card.php'; 
+        }
+        ?>
+    </div>
         <div class="mt-16 ">
             <?php include(__DIR__ . '/../components/footer.php'); ?>
         </div>

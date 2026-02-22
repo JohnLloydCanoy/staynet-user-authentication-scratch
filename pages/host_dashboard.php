@@ -28,7 +28,7 @@ $host_name = $_SESSION['full_name'] ?? 'Host';
                 </div>
                 <div class="flex items-center space-x-4">
                     <span class="text-sm font-medium text-gray-600">Hello, <?php echo htmlspecialchars($host_name); ?></span>
-                    <a href="logout.php" class="text-sm font-bold text-gray-500 hover:text-red-600 transition-colors">Log Out</a>
+                    <a href="../index.php" class="text-sm font-bold text-gray-500 hover:text-red-600 transition-colors">Log Out</a>
                 </div>
             </div>
         </div>
