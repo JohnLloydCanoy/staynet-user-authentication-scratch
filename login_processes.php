@@ -23,4 +23,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 header("Location: index.php");
                 exit();
             }
+        } else {
+            die("Invalid email or password. Please go back and try again."); 
+        }
+
+    } catch (\PDOException $e) {
+        die("Login error: " . $e->getMessage());
+    }
+}
 ?>
