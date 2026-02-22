@@ -16,4 +16,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['full_name'] = $user['full_name'];
             $_SESSION['role']      = $user['role'];
             $_SESSION['logged_in'] = true;
+            if ($user['role'] === 'host') {
+                header("Location: host_dashboard.php");
+                exit();
+            } else {
+                header("Location: index.php");
+                exit();
+            }
 ?>
