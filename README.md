@@ -18,7 +18,7 @@
 - **Database:** MySQL
 - **Dependency Management:** Composer
 - **Libraries:** `vlucas/phpdotenv`
-
+<h2></h2>
 ## 📁 Project Structure
 ```text
 staynet-user-authentication-scratch/
@@ -31,3 +31,5 @@ staynet-user-authentication-scratch/
 ├── .env                # Environment secrets (Git-ignored)
 ├── .gitignore          # Rules for hiding sensitive files
 └── index.php           # Main landing page
+
+<h2>Last Updated: 7:31 pm</h2>
